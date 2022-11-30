@@ -3,7 +3,7 @@ using System.IO;
 using Thrift.Protocol;
 using Thrift.Transport;
 
-namespace Thrifty.Services
+namespace Thrifty
 {
     public sealed class ThriftSerializer
     {
