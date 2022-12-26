@@ -8,7 +8,7 @@ namespace Thrifty
 {
     //暂时不支持异常处理
     [AttributeUsage(AttributeTargets.Method, AllowMultiple =true, Inherited = true)]
-    internal class ThriftExceptionAttribute : Attribute
+    public class ThriftExceptionAttribute : Attribute
     {
         public ThriftExceptionAttribute(short id, String name, Type exceptionType)
         {
